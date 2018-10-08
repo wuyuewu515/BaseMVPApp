@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg_titlbar">#2D8BFF</color>
+    <color name="bg_main">#e7efed</color>
+    <color name="bg_fff">#ffffff</color>
+    <color name="activity_backgroud">#e7efed</color>
+
+
+
+    <color name="light_gray">#09000000</color>
+    <color name="white">#fff</color>
+    <color name="text_black">#333</color>
+    <color name="line_gray">#ededed</color>
+    <color name="bg_gray">#ededed</color>
+    <color name="text_gray">#999999</color>
+    <color name="text_blue">#2D8BFF</color>
+    <color name="red">#f00</color>
+    <color name="btn_blue">#0294F5</color>
+    <color name="ededed">#ededed</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="white_99ff">#99ffffff</color>
+    <color name="txt_main">#50B6FF</color>
+    <color name="e6e6e6">#e6e6e6</color>
+    <color name="b3b3b3">#B3B3B3</color>
+    <color name="txt_invalid">#666666</color>
+    <color name="getcode_color">#0284f5</color>
+    <color name="btn_invalid">#dddddd</color>
+    <color name="pg_orange">#FF6F20</color>
+    <color name="getcode_bg">#f5f5f5</color>
+    <color name="getcode_bg_invalid">#999999</color>
+    <color name="yellow">#ffcd45</color>
+    <color name="ccc">#cccccc</color>
+    <color name="c8c8c">#8C8C8C</color>
+    <color name="money_yellow">#ff3a13</color>
+    <!--半透明色-->
+    <color name="translucent">#CCffffff</color>
+    <color name="newCarNumBg">#FFCD44</color>
+
+    <!-- 通用 -->
+    <color name="bgGray">#F5F5F5</color>
+    <color name="textGray">#999999</color>
+    <color name="textRed">#D86253</color>
+    <color name="textBlackLight">#666666</color>
+
+    <!-- 平台车列表 -->
+    <color name="textCarPrice">@color/textRed</color>
+
+    <color name="line_color">#D9D9D9</color>
+    <color name="login_back">#F7F7F7</color>
+    <color name="gray">#ff888888</color>
+
+</resources>

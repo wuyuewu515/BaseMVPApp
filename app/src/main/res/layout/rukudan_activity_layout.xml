@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ededed">
+
+    <gzfns.com.inventoryregulation.views.TitleBar
+        android:id="@+id/title_rukudan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rightText="保存"
+        app:titleMiddle="入库单" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_rukudan"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_88"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/qb_px_20"
+                    android:gravity="center_vertical"
+                    android:text="业务类型"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/fontSize_14"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_yewu_ruku"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/qb_px_20"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/fontSize_14"
+                    Tools:text="拖拉机" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/qb_px_1"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="@dimen/qb_px_20"
+                    android:layout_marginRight="@dimen/qb_px_20"
+                    android:background="@color/ededed" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_88"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/qb_px_20"
+                    android:gravity="center_vertical"
+                    android:text="品牌"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/fontSize_14"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_pinpai_ruku"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/qb_px_20"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/fontSize_14"
+                    Tools:text="c6" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/qb_px_1"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="@dimen/qb_px_20"
+                    android:layout_marginRight="@dimen/qb_px_20"
+                    android:background="@color/ededed" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_88"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/qb_px_20"
+                    android:gravity="center_vertical"
+                    android:text="车型"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/fontSize_14"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_chexing_ruku"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/qb_px_20"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/fontSize_14"
+                    Tools:text="88345927897897" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/qb_px_1"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="@dimen/qb_px_20"
+                    android:layout_marginRight="@dimen/qb_px_20"
+                    android:background="@color/ededed" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_88"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/qb_px_20"
+                    android:gravity="center_vertical"
+                    android:text="车架号"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/fontSize_14"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_chejiahao_ruku"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/qb_px_20"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/fontSize_14"
+                    Tools:text="37849875874385793" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/qb_px_1"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="@dimen/qb_px_20"
+                    android:layout_marginRight="@dimen/qb_px_20"
+                    android:background="@color/ededed" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rl_obd_ruku"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_88"
+                android:layout_marginTop="@dimen/qb_px_10"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="@dimen/qb_px_12"
+                    android:layout_height="@dimen/qb_px_12"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/qb_px_20"
+                    android:src="@mipmap/icon_bitian" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/qb_px_40"
+                    android:gravity="center_vertical"
+                    android:text="OBD获取状态"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/fontSize_14"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_obd_ruku"
+                    android:layout_width="@dimen/qb_px_100"
+                    android:layout_height="@dimen/qb_px_50"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/qb_px_20"
+                    android:background="@drawable/shape_btn_coner8"
+                    android:gravity="center"
+                    android:text="获取"
+                    android:textColor="@color/text_blue"
+                    android:textSize="@dimen/fontSize_14" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_rfid_ruku"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_88"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="@dimen/qb_px_12"
+                    android:layout_height="@dimen/qb_px_12"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/qb_px_20"
+                    android:src="@mipmap/icon_bitian" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/qb_px_40"
+                    android:gravity="center_vertical"
+                    android:text=" RFID编号:"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/fontSize_14"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_rfid_ruku"
+                    android:layout_width="@dimen/qb_px_100"
+                    android:layout_height="@dimen/qb_px_50"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/qb_px_20"
+                    android:background="@drawable/shape_btn_coner8"
+                    android:gravity="center"
+                    android:text="获取"
+                    android:textColor="@color/text_blue"
+                    android:textSize="@dimen/fontSize_14" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="right"
+                android:paddingRight="@dimen/qb_px_20"
+                android:text="获取时请确保OBD设备已插入并保持车辆打火"
+                android:textColor="@color/textRed"
+                android:textSize="@dimen/fontSize_10" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_1"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/qb_px_20"
+                android:layout_marginRight="@dimen/qb_px_20"
+                android:background="@color/ededed" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_88"
+                android:background="@color/white"
+                android:focusableInTouchMode="true">
+
+                <ImageView
+                    android:layout_width="@dimen/qb_px_12"
+                    android:layout_height="@dimen/qb_px_12"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/qb_px_20"
+                    android:src="@mipmap/icon_bitian" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/qb_px_40"
+                    android:gravity="center_vertical"
+                    android:text="公里数"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/fontSize_14"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_mailes_ruku"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/qb_px_50"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/qb_px_20"
+                    android:background="@color/transparent"
+                    android:inputType="numberDecimal"
+                    android:maxLength="6"
+                    android:gravity="center"
+                    android:hint="请输入公里数"
+                    android:minWidth="@dimen/qb_px_180"
+                    android:textSize="@dimen/fontSize_14" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_88"
+                android:layout_marginTop="@dimen/qb_px_10"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="@dimen/qb_px_12"
+                    android:layout_height="@dimen/qb_px_12"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/qb_px_20"
+                    android:src="@mipmap/icon_bitian" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/qb_px_40"
+                    android:gravity="center_vertical"
+                    android:text="照片"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/fontSize_14"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+            <me.zhouzhuo.zzimagebox.ZzImageBox
+                android:id="@+id/zz_image_box"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                app:zib_img_add="@mipmap/iv_add"
+                app:zib_img_default="@drawable/iv_default"
+                app:zib_img_deletable="true"
+                app:zib_img_delete="@mipmap/iv_delete"
+                app:zib_img_padding="2dp"
+                app:zib_img_size_one_line="3"
+                app:zib_left_margin="@dimen/qb_px_20"
+                app:zib_max_line="2"
+                app:zib_right_margin="@dimen/qb_px_20" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_20"
+                android:background="@color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_85"
+                android:layout_marginTop="@dimen/qb_px_10"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/qb_px_40"
+                android:text="视频"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/fontSize_14"
+                android:textStyle="bold" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/iv_video_ruku"
+                    android:layout_width="@dimen/qb_px_230"
+                    android:layout_height="@dimen/qb_px_230"
+                    android:layout_marginBottom="@dimen/qb_px_20"
+                    android:layout_marginLeft="@dimen/qb_px_20"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/iv_add" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qb_px_85"
+                android:layout_marginTop="@dimen/qb_px_10"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/qb_px_40"
+                android:text="备注"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/fontSize_14"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <EditText
+                    android:id="@+id/et_beizhu_ruku"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/qb_px_50"
+                    android:layout_marginLeft="@dimen/qb_px_20"
+                    android:layout_marginRight="@dimen/qb_px_20"
+                    android:background="@drawable/shape_text_coner8"
+                    android:gravity="start"
+                    android:hint="请输入备注"
+                    android:maxLength="200"
+                    android:minHeight="@dimen/qb_px_150"
+                    android:padding="@dimen/qb_px_10"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/fontSize_12" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

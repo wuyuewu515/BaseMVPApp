@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <gzfns.com.inventoryregulation.views.TitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleMiddle="关于APP" />
+
+
+    <ImageView
+        android:layout_width="@dimen/qb_px_120"
+        android:layout_height="@dimen/qb_px_120"
+        android:layout_marginTop="@dimen/qb_px_115"
+        android:src="@mipmap/icon_about_us" />
+
+    <TextView
+        android:id="@+id/tv_version_aboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/qb_px_25"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/fontSize_14"
+        tools:text="库存监管 V1.0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qb_px_90"
+        android:layout_marginTop="@dimen/qb_px_115"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/qb_px_20"
+        android:text="联系我们"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/fontSize_14"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qb_px_60"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/qb_px_20"
+        android:text="网址：www.gzfns.com"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/fontSize_14" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qb_px_60"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/qb_px_20"
+        android:text="联系电话：8620-8328182"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/fontSize_14" />
+</LinearLayout>

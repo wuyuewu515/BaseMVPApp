@@ -1,0 +1,104 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--引入SearchView的自定义样式-->
+        <item name="searchViewStyle">@style/Widget.SearchView</item>
+
+    </style>
+
+
+    <!--自定义dialog背景全透明无边框theme -->
+    <style name="UrgentDialog" parent="android:style/Theme.Dialog">
+        <!--背景颜色及和透明程度-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--是否去除标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否去除边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否模糊-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item><!-- 是否半透明 -->
+    </style>
+    <!-- 防止欢迎页白屏或者黑屏，设置图片
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@mipmap/splash</item>
+    </style>
+-->
+    <style name="selectorDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <!-- 网络加载 -->
+    <style name="LoddingDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- 底部导航栏 -->
+    <style name="home_navi_radiobutton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">@dimen/fontSize_10</item>
+    </style>
+
+    <!-- 个人中心cardView样式 -->
+    <style name="personal_cardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/qb_px_90</item>
+        <item name="android:layout_marginLeft">@dimen/qb_px_20</item>
+        <item name="android:layout_marginRight">@dimen/qb_px_20</item>
+        <item name="android:radius">@dimen/qb_px_8</item>
+        <item name="android:layout_marginBottom">@dimen/qb_px_10</item>
+    </style>
+    <!-- 首页cardView样式 -->
+    <style name="home_cardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/qb_px_250</item>
+        <item name="android:radius">@dimen/qb_px_40</item>
+        <item name="android:layout_marginLeft">@dimen/qb_px_20</item>
+        <item name="android:layout_marginRight">@dimen/qb_px_20</item>
+        <item name="android:layout_marginBottom">@dimen/qb_px_10</item>
+        <item name="android:layout_marginTop">@dimen/qb_px_10</item>
+    </style>
+
+
+    <style name="Widget.SearchView" parent="Widget.AppCompat.SearchView">
+        <!--修改搜索框提示文字-->
+        <item name="defaultQueryHint">请输入车架号</item>
+        <!--修改打开搜索框的搜索按钮的图标-->
+        <item name="searchIcon">@null</item>
+        <!--修改搜索框左边的搜索按钮图标-->
+        <item name="searchHintIcon">@null</item>
+    </style>
+
+
+
+    <style name="NoTitleFullscreen" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

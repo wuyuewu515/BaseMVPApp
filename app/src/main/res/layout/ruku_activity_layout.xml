@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main"
+    android:orientation="vertical">
+
+    <gzfns.com.inventoryregulation.views.TitleBar
+        android:id="@+id/titlebar_myCar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleMiddle="入库" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_serach_mycar"
+        style="@style/home_cardView"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/qb_px_20"
+        android:elevation="@dimen/qb_px_6"
+        app:cardCornerRadius="@dimen/qb_px_8"
+        app:contentPadding="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/qb_px_60"
+            android:layout_margin="@dimen/qb_px_2"
+            android:background="@drawable/shape_white_bg"
+            android:drawableLeft="@mipmap/sousuo"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/qb_px_20"
+            android:text="请输入车架号"
+            android:textColor="@color/b3b3b3"
+            android:textSize="@dimen/fontSize_12" />
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_mycar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qb_px_88"
+        android:background="@color/white"
+        app:tabIndicatorColor="@color/text_blue" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/reflesh_mycar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mycar_mycar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>
